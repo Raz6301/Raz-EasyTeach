@@ -1,0 +1,31 @@
+{
+  "name": "easy-teach-serverside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&& node .",
+    "test": "node test",
+    "dev": "set NODE_ENV=development&& nodemon ."
+  },
+  "keywords": [],
+  "author": "Raz Vaknin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.391.0",
+    "@aws-sdk/credential-provider-node": "^3.391.0",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.1",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0"
+  }
+}

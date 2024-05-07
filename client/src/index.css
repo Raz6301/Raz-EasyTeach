@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.victory-pie-container {
+  margin: "auto";
+  width: 50%;
+  display: inline-block;
+
+}
+
+@media (max-width: 768px) {
+  .victory-pie-container {
+    margin: "auto";
+    width: 100%;
+    display: "inline-block";
+    margin-bottom: 40px;
+  }
+}
+
+.update_buttons {
+  padding: 5px;
+
+  margin-bottom: 3px;
+}
